@@ -1,0 +1,82 @@
+body {
+    background-color: #fef6e4;
+    color: #001858;
+    font-family: "YuGothic";
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+}
+
+.header {
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 20px;
+    font-family: "Snell Roundhand";
+    padding: 20px 40px;
+}
+
+.header-list {
+    float: right;
+}
+.top-view {
+    height: 500px;
+    position: relative;
+}
+
+.top-view h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+
+}
+
+.top-view img {
+    width: 100%;
+    height: 500px;
+}
+
+.gaiyo {
+    margin-top:  70px;
+    margin-bottom: 20px;
+}
+
+.gaiyo h1 {
+    text-align: center;
+}
+
+.gaiyo-list {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 200px;
+    float: left;
+
+}
+
+.gaiyo-map {
+    margin-right: 50px;
+}  
+
+.gakusei {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.gakusei h2 {
+    text-decoration: underline;
+    text-decoration-color: #f582ae;
+}
